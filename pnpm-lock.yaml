@@ -104,8 +104,8 @@ importers:
         specifier: 1.38.1
         version: 1.38.1
       rimraf:
-        specifier: 5.0.2
-        version: 5.0.2
+        specifier: 5.0.4
+        version: 5.0.4
       semver:
         specifier: 7.5.4
         version: 7.5.4
@@ -197,8 +197,8 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       unimport:
-        specifier: ^3.3.0
-        version: 3.3.0(rollup@3.29.1)
+        specifier: ^3.4.0
+        version: 3.4.0(rollup@3.29.1)
       untyped:
         specifier: ^1.4.0
         version: 1.4.0
@@ -375,8 +375,8 @@ importers:
         specifier: ^1.7.4
         version: 1.7.4
       unimport:
-        specifier: ^3.3.0
-        version: 3.3.0(rollup@3.29.1)
+        specifier: ^3.4.0
+        version: 3.4.0(rollup@3.29.1)
       unplugin:
         specifier: ^1.5.0
         version: 1.5.0
@@ -451,8 +451,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0
       unimport:
-        specifier: ^3.3.0
-        version: 3.3.0(rollup@3.29.1)
+        specifier: ^3.4.0
+        version: 3.4.0(rollup@3.29.1)
       untyped:
         specifier: ^1.4.0
         version: 1.4.0
@@ -2527,6 +2527,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     bundledDependencies:
       - napi-wasm
 
@@ -8194,6 +8195,9 @@ packages:
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
 
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -8271,7 +8275,7 @@ packages:
       uncrypto: 0.1.3
       unctx: 2.3.1
       unenv: 1.7.4
-      unimport: 3.3.0(rollup@3.29.1)
+      unimport: 3.4.0(rollup@3.29.1)
       unstorage: 1.9.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -9704,8 +9708,8 @@ packages:
     dependencies:
       glob: 7.2.3
 
-  /rimraf@5.0.2:
-    resolution: {integrity: sha512-SeHT0IRkQNIhWL7O5qrCt8MfJagJ2ZOemGMIx2NXS7MP1GldYpWSw3mCLbnjA0Ac6eadZMcDFZjynCWGJmwO6A==}
+  /rimraf@5.0.4:
+    resolution: {integrity: sha512-rizQI/o/YAMM1us0Zyax0uRfIK39XR52EAjjOi0fzMolpGp0onj6CWzBAXuOx6+6Xi9Rgi0d9tUZojhJerLUmQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
@@ -10701,8 +10705,8 @@ packages:
       vfile: 6.0.1
     dev: true
 
-  /unimport@3.3.0(rollup@3.29.1):
-    resolution: {integrity: sha512-3jhq3ZG5hFZzrWGDCpx83kjPzefP/EeuKkIO1T0MA4Zwj+dO/Og1mFvZ4aZ5WSDm0FVbbdVIRH1zKBG7c4wOpg==}
+  /unimport@3.4.0(rollup@3.29.1):
+    resolution: {integrity: sha512-M/lfFEgufIT156QAr/jWHLUn55kEmxBBiQsMxvRSIbquwmeJEyQYgshHDEvQDWlSJrVOOTAgnJ3FvlsrpGkanA==}
     dependencies:
       '@rollup/pluginutils': 5.0.4(rollup@3.29.1)
       escape-string-regexp: 5.0.0
